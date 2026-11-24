@@ -73,6 +73,18 @@ The strategy game is the first half. I've started the second half beside it: a f
 
 Honestly, I'm not proud of Reach yet. The battle sim is a step. I know what proud feels like, though. I designed a Lord of the Rings strategy board game, and on its third playtest, about an hour in, my friends stopped being patient with me and started plotting against each other: whispering tactics, bluffing, laughing and yelling. That's the bar. When the December playtest has that hour, I'll be proud of it.
 
+## Latest: November 2026
+
+November was all about getting on the ground and inside the ships. The Spirit of Fire is 2.5 km long now and you can walk around inside it: hangars, runways, the lift lobby, all of it (V61). The Covenant cruiser Kerel got its inside and a garrison to fight (V62).
+
+I also changed how we chase bugs. Now we find the cause with evidence first and fix second, and we look at how other games solved it before reinventing anything. A whole night of just diagnosing paid off right away.
+
+Then the ground vehicles. We built the Warthog family and the Ghost ourselves to set the bar, and they're the reference for everything else:
+
+![The Warthog family and Ghost](media/vehicles/warthog-ghost-pilot.jpg)
+
+Dated notes: [builds](docs/builds/), [process and research](docs/how-we-build-it/notes/), [vehicles](docs/vehicles/).
+
 ## How I build it
 
 I'm a mechanical engineer, not a career programmer. Reach is built with a team of AI agents: Claude Code writes most of the code, and an AI art lead produces the ship and station art. I'm the director. I design the game, make every call, play every build and decide what stays.
@@ -95,15 +107,15 @@ Under the hood:
 | | |
 |---|---|
 | First battle sim | 1 September 2026 |
-| Builds | 50+ numbered builds |
-| Test battles simulated | 2,283 since 16 October, when the counter went in |
+| Builds | 70+ numbered builds (V62 on 21 Nov) |
+| Test battles simulated | 4,294 by 14 November, counted since 16 October |
 | Shots fired in those battles | ~21 million |
 | Ships destroyed | 4,763 |
 | Fighters and bombers launched | ~288,000 (~241,000 shot down) |
 | Hand-written code | ~500,000 lines of GDScript, tests and tools |
 | Commits | 289 |
 
-*(From the game's own stats file and repository, 2 Nov 2026.)*
+*(From the game's own stats file and repository: battles and builds as of November 2026, the rest from 2 Nov 2026.)*
 
 ## The code
 

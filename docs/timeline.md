@@ -121,6 +121,18 @@ All dates are 2026. A build named with a suffix (`_1`, `_2`) is a smaller follow
 | Build | Date | What it added |
 |---|---|---|
 | V56 | 1–2 Nov | Standing guard and screen tasks, fleets that keep pace, orders into a system you are watching, a new default HUD, new impact and fire effects, ion guns, point defence against missiles, and a shot-scale tuning page. |
+| V56_1 | 3–4 Nov | Nine play fixes from V56: guards off the ward, Halberds hang back, shields refill after a jump, a shorter Tests list and a HUD that follows the screen. |
+| V57 | 5–6 Nov | The two first-person merge builds folded into the main game. |
+| V57_1 | 6 Nov | Slice feel: speed floors, the turn trade, wave variety, trails, and no pushing between ships or soldiers. |
+| V57_2 | 6 Nov | The slice playable by hand: boarding by real input, one key map and clock, hit markers, the hangar lag fixed, our own Marine and ODST. |
+| V58 | 6–12 Nov | Eight checkpoints: crash rule and wider turns, cockpit view and lock, soldier cover for both sides, the planet held still, the Interior Map Builder; 212 GB of old copies cleaned up after. |
+| V58_1 | 13 Nov | A one-day bug hunt on V58. |
+| V59 | 13–14 Nov | One seat door, the instant drop, the Spirit of Fire map from its measured layout, one Esc menu, the on-foot game in the same save, Banshees and the Seraph escort. |
+| V60 | 15–16 Nov | Stutter fix, the squad brain in the main wave, one load screen, map hole and seam fixes, craft hit shapes, hit and muzzle effects. |
+| V61 | 17–18 Nov | The new 2.5 km Spirit of Fire with its inside: hangars, runways, lift lobby, walking floor, lights and doors. |
+| V62 | 20–21 Nov | The Kerel cruiser's interior and garrison as a candidate, and pathing fixes on the Spirit of Fire. |
+
+Alongside the builds in November: a [slimmer rulebook and the guess loop](how-we-build-it/notes/) (18 Nov), a diagnosis night that found root causes before fixing (22 Nov), research on enemy memory and gun feel (22–23 Nov), and a ground-vehicle art sprint with an in-house [Warthog and Ghost pilot](vehicles/) (21–24 Nov). Each has its own dated note.
 
 ## Notes on the numbering
 
@@ -140,10 +152,12 @@ All dates are 2026. A build named with a suffix (`_1`, `_2`) is a smaller follow
 
 | | |
 |---|---|
-| Numbered builds | **64** dated builds in the table, V2 to V56, counting every follow-up (`_1`, `_2`) and split (a, b) build separately; 65 with the undated V3 |
+| Numbered builds | **74** dated builds in the table, V2 to V62, counting every follow-up (`_1`, `_2`) and split (a, b) build separately; 75 with the undated V3 |
 | Commits | **289** across all branches at the V56 commit |
-| Test battles | **2,283** since 16 October, when the battle counter was added |
+| Test battles | **4,294** by V59 (14 Nov), counted since 16 October, when the battle counter was added |
 | Shots fired in those battles | **20,982,453** |
 | Ships destroyed | **4,763** (not counting fighters and bombers) |
 | Fighters launched | **287,813** |
 | Hand-written code | **about 503,000 lines** (game code, tests and tools) |
+
+The commit, shot, ship and fighter counts are from the V56 snapshot (2 Nov); the battle count is from V59.
